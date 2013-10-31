@@ -9,10 +9,10 @@ Usage:
 	
 	php_phasename
 
-Where <phasename> is any of following:
+Where phasename is any of following:
 
-  * startofhead - after the ''head''-tag.
-  * aftermeta - after the last <meta [..] >-tag.
+  * startofhead - after the head-tag.
+  * aftermeta - after the last &lt;meta [..]&gt;-tag.
   * aftercss - after the last <link [..] >-tag.
   * beforejs - before the first <script [..] >-tag.
   * afterjs - after the last <script [..] >-tag.
