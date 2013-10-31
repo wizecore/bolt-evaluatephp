@@ -6,12 +6,12 @@ Bolt CMS Extension for dynamic PHP evaluation.
 Usage:
 
 1. Declare properties for your entries called
-
-  php_phasename
+	
+	php_phasename
 
 Where <phasename> is any of following:
 
-  * startofhead - after the <head>-tag.
+  * startofhead - after the ''head''-tag.
   * aftermeta - after the last <meta [..] >-tag.
   * aftercss - after the last <link [..] >-tag.
   * beforejs - before the first <script [..] >-tag.
